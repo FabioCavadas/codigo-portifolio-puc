@@ -1,0 +1,20 @@
+function criaEmpregado(salarioBase,valorHoraExtra,qtdHorasExtras ){
+    return{
+        salarioBase,
+        valorHoraExtra,
+        qtdHorasExtras,
+        calculaSalario: function(){
+            return this.salarioBase + (this.valorHoraExtra * this.qtdHorasExtras); <!-- Acessar elementos do objeto -->
+        }
+    }
+};
+
+<!-- Criando os Empregados -->
+const empregado1 = criaEmpregado(5000, 100, 10);
+const empregado2 = criaEmpregado(10000, 80, 5);
+const empregado3 = criaEmpregado(3100, 90, 30);
+
+<!-- Calculando o salario dos Empregados -->
+empregado1.calculaSalario();
+empregado2.calculaSalario();
+empregado3.calculaSalario();

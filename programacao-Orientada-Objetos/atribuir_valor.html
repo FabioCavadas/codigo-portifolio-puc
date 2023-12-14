@@ -1,0 +1,33 @@
+var pessoa = {
+    nome: "Fábio",
+    idade: 42,
+    saudar: function(){ 
+        console.log("Olá pessoas!")
+    }
+};
+
+<!-- Troca de valores por atribuição-->
+pessoa.Nome = 'Fábio Cavadas';
+pessoa['idade'] = 45;
+
+<!--Mudando o valor da Saudação por atribuição e executando a saudação-->
+pessoa.saudar() = function(){ 
+    console.log("Hello");
+};
+
+<!--Executando a nova msg de saudação-->
+pessoa.saudar();
+
+var pessoa1 = {
+    nome: "Fábio",
+    idade: 42,
+    saudar: function(nomeDoAmigo){ 
+        console.log("Olá pessoas!"+nomeDoAmigo)
+    }
+};
+
+<!--Executando a Saudação por atribuição para uma pessoa específica, passando na função o parametro 'nomeDoAmigo' -->
+pessoa1.saudar() = function(nomeDoAmigo){console.log("Hello "+nomeDoAmigo+"!");};
+<!-- ao executar a msg de saudação sem inserir o atributo com o valor do 'nomeDoAmigo'
+     a msg será exibida, com o dado 'undefinede!'-->
+pessoa.saudar(); 

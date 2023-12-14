@@ -1,0 +1,20 @@
+const empregado = {
+    salarioBase: 5000,
+    valorHoraExtra: 100,
+    qtdHorasExtras: 10,
+    calcularSalario: function(){
+    return this.salarioBase + (this.valorHoraExtra * this.qtdHorasExtras);
+    }
+};
+empregado.calcularSalario();
+
+const empregado1 = {
+    salarioBase: 10000,
+    valorHoraExtra: 80,
+    qtdHorasExtras: 5,
+    calcularSalario: function(){
+    return this.salarioBase + (this.valorHoraExtra * this.qtdHorasExtras);
+    }
+};
+empregado1.calcularSalario();
+

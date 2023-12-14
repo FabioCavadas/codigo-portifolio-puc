@@ -1,0 +1,17 @@
+<!--Formas de acessar o valor dos elementos em Javascript-->
+var pessoa = {
+    nome: "Fábio",
+    idade: 42,
+    saudar: function(){ 
+        console.log("Olá pessoas!")
+    }
+};
+
+<!--Existem duas formas de acessar o valor-->
+console.log(pessoa.nome);
+
+console.log(pessoa['idade']);
+
+<!-- Acessando um método -->
+pessoa.saudar();
+console.log(pessoa.saudar());
