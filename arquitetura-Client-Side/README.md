@@ -99,10 +99,26 @@ Não é necessário remover as tags <react.StrictMode>, componente do React que 
 Documentação [Vite](https://vitejs.dev/)
 
 <h3><b>Criação de Demos:</b></h3>
-<b>
 
-*Com o Vite*
+- npm create vite@latest demo-react-componentebasico - Criar app demo
+- npm run deve - Iniciar servidor de desenvolvimento
+- ctrl c - Finalizar execução
 
-</b>
 
-- npm create vite@latest demo-react-componentebasico
+<h4><b>demo_react_eventosbasicos</b></h4>
+
+<p>
+Mostra o comportamento de dois botões
+<b>Eventos</b> suportados pelo React: (https://react.dev/learn/responding-to-events)
+
+<b>Onclick</b> - é utilizado para adicionar manipuladores de eventos de clique a elementos JSX.
+<b>handClik</b> - é uma convenção comum em React e outras bibliotecas/componentes de UI baseados em JavaScript para definir e gerenciar eventos de clique. No contexto do React, é tipicamente um método de instância em um componente de classe ou uma função em um componente funcional que é chamada quando um elemento HTML é clicado.
+
+<b>Bubbling</b> - ao clicar no botão ele exibe uma mensagem, o evento sobe na estrutura da arvore propagando-se para os elementos pai na hierarquia DOM, o elemento que encapsula o DOM dentro da árvore possui tratador? sim, ele exibirá uma nova mensagem.
+
+<b>Stop Propagation</b>, o botão exibe uma única mensagem sinalizando que o botão foi clicado e não se propagou para a div
+
+<b>Hooks</b> - funções especíais no ciclo de vida dos componentes criados pelo React.
+Hooks suportados:  (https://react.dev/reference/react)
+
+</p>
