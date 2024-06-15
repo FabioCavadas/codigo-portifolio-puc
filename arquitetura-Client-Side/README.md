@@ -36,9 +36,10 @@ Obs: pode ser necessário a instalação de algum pacote adicional, em meu caso 
 </p>
 
 <p>iniciar o servidor de desenvolvimento</p>
+
 - npm start
 
-Documentação [(https://react.dev/)]
+Documentação [React](https://react.dev/)
 
 
 #Criação de App utilizando Vite
@@ -48,9 +49,11 @@ Documentação [(https://react.dev/)]
 <p>
 Obs: Podera abrir uma mensagem sinlaizando que é preciso instalar o seguinte pacote vite@5.2.3
 </p>
+
 - create-vite@5.2.3
 
-<p>Ao executar o comando será perguntado qual framework iremos trabalhar: 
+<p>Ao executar o comando será perguntado qual framework iremos trabalhar:
+
 - vanilla 
 - vue 
 - React 
@@ -63,6 +66,7 @@ Obs: Podera abrir uma mensagem sinlaizando que é preciso instalar o seguinte pa
 Selecione *React*
 
 <p>Na sequencia será necessário escolher a ferramenta de linguagem</p>
+
 - Typscript 
 - Javascript
 
@@ -75,6 +79,7 @@ Selecione *Javascript*
 - npm run dev -> Disparar o processo de build e colocar no ar o servidor de desenvolvimento
 
 <p>Caso seja pressionado a telca 'h', será mostrada as teclas de atalho:</p>
+
 r - restart servidor
 u - show server url
 o - open in browser
@@ -87,6 +92,8 @@ Não é necessário remover as tags <react.StrictMode>, componente do React que 
 </p>
 
 <p>Subistituições de modulos a quente, atualização da app com o servidor ativo, será percebido no terminal, a informação mostrado abaixo:
-[vite] hmr update /src/App.jsx (x3)</p>
 
-Documentação [(https://vitejs.dev/)]
+*[vite] hmr update /src/App.jsx (x3)*
+</p>
+
+Documentação [Vite](https://vitejs.dev/)
