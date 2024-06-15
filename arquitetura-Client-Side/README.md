@@ -1,4 +1,4 @@
-#Criação de App utilizando React
+<h2><b>Criação de App utilizando React</b></h2>
 
 <p>Abrir o terminal e executar o comando abaixo para criação de uma app com a última versão do React</p>
 
@@ -42,7 +42,7 @@ Obs: pode ser necessário a instalação de algum pacote adicional, em meu caso 
 Documentação [React](https://react.dev/)
 
 
-#Criação de App utilizando Vite
+<h2><b>Criação de App utilizando Vite</b></h2>
 
 - npm create vite@latest aplicacaovite
 
@@ -97,3 +97,12 @@ Não é necessário remover as tags <react.StrictMode>, componente do React que 
 </p>
 
 Documentação [Vite](https://vitejs.dev/)
+
+<h3><b>Criação de Demos:</b></h3>
+<b>
+
+*Com o Vite*
+
+</b>
+
+- npm create vite@latest demo-react-componentebasico
