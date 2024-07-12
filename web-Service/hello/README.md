@@ -1,11 +1,15 @@
-<h2>Exemplo de código node.js</h2>
+<h3>Exemplo de código node.js</h2>
 
-<p><b>npm init</b> -> para inicializar e criar o arquivo package.js</p>
+<p>Inicializar e criar o arquivo <b></b>package.js</p>
+<li><b>npm init</b></li>
+</br>
 
 <p>Criar um novo arquivo <b>index.js</b> e inserir o código para criar um servidor e exibir uma mensagem.</p>
 
 <p> rodar o comando:</p>
-<b>node index.js</b>
-<p>no browser rodar http://localhost:8080 para exibir a msg.</p>
+<li><b>node index.js</b></li>
+</br>
+
+<p>Exibir a mensagem, no browser rodar a <b>url: </b>http://localhost:8080</p>
 
 
