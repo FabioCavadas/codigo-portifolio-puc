@@ -1,7 +1,7 @@
-<h1>Código Portifólio - PUC</h1> 
-<h4>Web Service</h4>
+<h2>Código Portifólio - PUC</h2> 
+<h3>Web Service</h3>
 
-<h3>ClientSoap para consumo de webservice para calculos matemáticos</h3>
+<h3>ClientSoap para consumo de webservice para consulta de CEP</h3>
 
 <p>Criar e acessar uma pasta</p> 
 <li><b>mkdir ExemploClientSOAP && cd ExemploClientSOAP</b></li>
@@ -15,12 +15,12 @@
 <p>Ao executar a instalação do soap, será inserida a dependência do soap no arquivo <b>package.json</b> e irá criar a pasta <b>node_modules</b> - raiz de todas as bibliotecas do projeto</p>
 
 <h5>Webservice:</h5> 
-<b>Url:</b> http://www.dneonline.com/calculator.asmx?wsdl
+<b>Url:</b> https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl
 
 <h5>Informações importantes do webservice:</h5>
 <ul>
-    <li>wsdl:service name = Calculator</li>
-    <li>wsdl:port name= CalculatorSoap</li>
+    <li>wsdl:service name = AtendeClienteService</li>
+    <li>wsdl:port name= AtendeClientePort</li>
 </ul>
 
 <b>wsdl</b> - Linguagem de Descrição do Webservice. 
